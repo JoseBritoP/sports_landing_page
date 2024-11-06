@@ -111,7 +111,7 @@ export default function Footer() {
           {item.social && (
             <div className="flex w-full justify-start gap-x-5 items-center pt-2">
               {item.social?.map((soc, i) => (
-                <>{React.cloneElement(soc.Icon, { key: i })}</>
+                <Image key={i} alt="Logo" className="rounded-full" src='/images/logo.png' height={50} width={50}/>
               ))}
             </div>
           )}
