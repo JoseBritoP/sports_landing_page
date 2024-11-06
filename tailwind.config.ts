@@ -56,7 +56,10 @@ const config: Config = {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		}
-  	}
+  	},
+		backgroundImage: {
+			banner: "url('/images/banner1.webp')", // Correcto
+		}
   },
   plugins: [require("tailwindcss-animate")],
 };
